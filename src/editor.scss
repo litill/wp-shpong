@@ -1,0 +1,29 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-create-block-wp-shpong {
+  	background: lightgreen;
+
+  	.shpong-game-container {
+	  position: relative;
+	  height: 200px;
+	  width: 100%;
+	  display: block;
+
+	  &:after {
+		position: absolute;
+		left: 0;
+		top: 50%;
+		transform: translateY(-50%);
+		text-align: center;
+		width: 100%;
+		font-weight: 100;
+		letter-spacing: 2px;
+		font-size: 30px;
+		content: "WP-SHPONG";
+	  }
+	}
+}

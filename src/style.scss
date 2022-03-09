@@ -1,0 +1,31 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.wp-block-create-block-wp-shpong {
+
+  .shpong-game-container {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	position: relative;
+  }
+
+  canvas#shpong-game-canvas {
+	width: 100%;
+	height: auto;
+	display: block;
+	margin: 0;
+	padding:0;
+	image-rendering: crisp-edges;
+	image-rendering: -moz-crisp-edges;
+	image-rendering: -webkit-optimize-contrast;
+	image-rendering: optimize-contrast;
+	-ms-interpolation-mode: nearest-neighbor;
+  }
+}

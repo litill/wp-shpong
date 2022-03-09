@@ -1,0 +1,14 @@
+.shpong-game-container {
+    width: 100%;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+canvas#shpong-game-canvas {
+    /*width: 100%;*/
+	/*height: auto;*/
+    display: block;
+	margin: 0;
+	padding:0;
+}
