@@ -1,7 +1,7 @@
 WP-Shpong
 ----------
 
-A simple JavaScript/Canvas based game (work in progress).
+A simple JavaScript/Canvas based game as a Gutenberg Block plugin (work in progress).
 
 The main branch contains the latest working copy, the work continues on refactor/make-it-clean
 
